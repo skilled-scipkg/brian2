@@ -1,0 +1,338 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "brian2",
+  "evidence": {
+    "core_skills": [
+      "brian2-getting-started",
+      "brian2-docs-sphinx",
+      "brian2-developer-guide",
+      "brian2-api-and-scripting",
+      "brian2-simulation-workflows",
+      "brian2-inputs-and-modeling"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/brian2-getting-started.md",
+      "skills/.evidence/brian2-docs-sphinx.md",
+      "skills/.evidence/brian2-developer-guide.md",
+      "skills/.evidence/brian2-api-and-scripting.md",
+      "skills/.evidence/brian2-simulation-workflows.md",
+      "skills/.evidence/brian2-inputs-and-modeling.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.evidence/memory.md",
+        "skills/brian2-api-and-scripting/SKILL.md",
+        "skills/brian2-developer-guide/SKILL.md",
+        "skills/brian2-docs-sphinx/SKILL.md",
+        "skills/brian2-getting-started/SKILL.md",
+        "skills/brian2-inputs-and-modeling/SKILL.md",
+        "skills/brian2-simulation-workflows/SKILL.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/brian2-api-and-scripting/SKILL.md",
+        "skills/brian2-developer-guide/SKILL.md",
+        "skills/brian2-docs-sphinx/SKILL.md",
+        "skills/brian2-getting-started/SKILL.md",
+        "skills/brian2-inputs-and-modeling/SKILL.md",
+        "skills/brian2-simulation-workflows/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/brian2-api-and-scripting/references/source_map.md",
+        "skills/brian2-build-and-install/SKILL.md",
+        "skills/brian2-build-and-install/references/doc_map.md",
+        "skills/brian2-build-and-install/references/source_map.md",
+        "skills/brian2-developer-guide/references/source_map.md",
+        "skills/brian2-docs-sphinx/references/source_map.md",
+        "skills/brian2-examples-and-tutorials/SKILL.md",
+        "skills/brian2-examples-and-tutorials/references/doc_map.md",
+        "skills/brian2-examples-and-tutorials/references/source_map.md",
+        "skills/brian2-getting-started/references/source_map.md",
+        "skills/brian2-index/SKILL.md",
+        "skills/brian2-inputs-and-modeling/references/source_map.md",
+        "skills/brian2-simulation-workflows/references/source_map.md",
+        "skills/brian2-tests/SKILL.md",
+        "skills/brian2-tests/references/doc_map.md",
+        "skills/brian2-tests/references/source_map.md",
+        "skills/brian2-theory-and-methods/SKILL.md",
+        "skills/brian2-theory-and-methods/references/doc_map.md",
+        "skills/brian2-theory-and-methods/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/.evidence/memory.md",
+        "skills/brian2-api-and-scripting/references/source_map.md",
+        "skills/brian2-build-and-install/SKILL.md",
+        "skills/brian2-build-and-install/references/doc_map.md",
+        "skills/brian2-build-and-install/references/source_map.md",
+        "skills/brian2-developer-guide/references/source_map.md",
+        "skills/brian2-docs-sphinx/references/source_map.md",
+        "skills/brian2-examples-and-tutorials/SKILL.md",
+        "skills/brian2-examples-and-tutorials/references/doc_map.md",
+        "skills/brian2-examples-and-tutorials/references/source_map.md",
+        "skills/brian2-getting-started/references/source_map.md",
+        "skills/brian2-index/SKILL.md",
+        "skills/brian2-inputs-and-modeling/references/source_map.md",
+        "skills/brian2-simulation-workflows/references/source_map.md",
+        "skills/brian2-tests/SKILL.md",
+        "skills/brian2-tests/references/doc_map.md",
+        "skills/brian2-tests/references/source_map.md",
+        "skills/brian2-theory-and-methods/SKILL.md",
+        "skills/brian2-theory-and-methods/references/doc_map.md",
+        "skills/brian2-theory-and-methods/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs_sphinx"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary implementation code is under the top-level brian2/ package.",
+      "Primary package tests are in brian2/tests; dev/tools/tests contains auxiliary test runner scripts.",
+      "docs_sphinx/ is a non-default docs directory name and is explicitly captured for deterministic generation."
+    ],
+    "package_name": "brian2",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "brian2"
+    ],
+    "test_dirs": [
+      "brian2/tests",
+      "dev/tools/tests"
+    ],
+    "tutorial_dirs": [
+      "examples",
+      "tutorials"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/brian2-brian2",
+  "run_id": "compile_20260301T020053523674Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "brian2-api-and-scripting",
+      "brian2-build-and-install",
+      "brian2-developer-guide",
+      "brian2-docs-sphinx",
+      "brian2-examples-and-tutorials",
+      "brian2-getting-started",
+      "brian2-index",
+      "brian2-inputs-and-modeling",
+      "brian2-simulation-workflows",
+      "brian2-tests",
+      "brian2-theory-and-methods"
+    ],
+    "core_skill_ids": [
+      "brian2-getting-started",
+      "brian2-docs-sphinx",
+      "brian2-developer-guide",
+      "brian2-api-and-scripting",
+      "brian2-simulation-workflows",
+      "brian2-inputs-and-modeling"
+    ],
+    "deferred_gaps": [
+      "Generator topic bucketing may create low-signal leftovers (e.g., docs-sphinx/tests buckets) that should be merged or folded into advanced-topics in pass 3.",
+      "dev/tools/tests is outside default shallow test autodiscovery depth; keep it explicitly in compile profile for deterministic reuse."
+    ],
+    "goal": "Generate Brian2 docs-first skills and prioritize high-signal workflow enrichment for passes 2 and 3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "Route by user intent (install, modeling, simulation, API, troubleshooting)",
+          "Escalation order from docs to examples/tests to source",
+          "Pointers to discovered docs/tutorial/test/source roots"
+        ],
+        "reason": "Acts as the top-level router so requests are directed to the correct topic skill with docs-first behavior.",
+        "skill_id": "brian2-index",
+        "source_hints": [
+          "docs_sphinx",
+          "examples",
+          "tutorials",
+          "brian2/tests",
+          "brian2"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "First runnable simulation path",
+          "Core Brian2 concepts (neurons, synapses, monitors, units)",
+          "Minimal notebook/script examples"
+        ],
+        "reason": "Highest-volume onboarding questions are answered here and reduce misrouting.",
+        "skill_id": "brian2-getting-started",
+        "source_hints": [
+          "docs_sphinx/introduction",
+          "tutorials",
+          "examples"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "pip/editable install and optional dependencies",
+          "Cython extension build expectations",
+          "Environment/version prerequisites and quick verification"
+        ],
+        "reason": "Installation/build issues are common blockers and need concise, validated playbooks.",
+        "skill_id": "brian2-build-and-install",
+        "source_hints": [
+          "README.md",
+          "pyproject.toml",
+          "setup.py",
+          "docs_sphinx/introduction"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Defining neuron/synapse models and equations",
+          "Simulation control and object lifecycle",
+          "Common monitor/output patterns"
+        ],
+        "reason": "Most practical usage requests depend on the Python API surface and idiomatic scripting patterns.",
+        "skill_id": "brian2-api-and-scripting",
+        "source_hints": [
+          "docs_sphinx/user",
+          "brian2/core",
+          "brian2/groups",
+          "brian2/synapses",
+          "brian2/monitors"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Runtime and standalone device workflows",
+          "Run/restart/output patterns",
+          "Performance-oriented execution choices"
+        ],
+        "reason": "Execution workflows (runtime vs standalone, scheduling, reproducibility) are high-impact and error-prone.",
+        "skill_id": "brian2-simulation-workflows",
+        "source_hints": [
+          "docs_sphinx/user",
+          "examples/standalone",
+          "examples/multiprocessing",
+          "brian2/devices"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Equations, units, and parameters",
+          "Input stimuli and synaptic modeling",
+          "Validation checks against known behaviors"
+        ],
+        "reason": "Model specification quality dominates correctness for scientific simulations.",
+        "skill_id": "brian2-inputs-and-modeling",
+        "source_hints": [
+          "docs_sphinx/user",
+          "docs_sphinx/advanced",
+          "examples/synapses",
+          "brian2/equations",
+          "brian2/input"
+        ]
+      },
+      {
+        "action": "audit",
+        "must_cover": [
+          "Frequent error signatures and fixes",
+          "Debug path using docs then tests",
+          "Regression checks for codegen/device-specific issues"
+        ],
+        "reason": "Cross-cutting failures should be distilled from tests and developer docs after initial generation.",
+        "skill_id": "brian2-theory-and-methods",
+        "source_hints": [
+          "brian2/tests",
+          "docs_sphinx/developer",
+          "docs_sphinx/resources"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "brian2-getting-started",
+      "brian2-docs-sphinx",
+      "brian2-developer-guide",
+      "brian2-api-and-scripting",
+      "brian2-simulation-workflows",
+      "brian2-inputs-and-modeling"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/brian2-brian2/skills/brian2-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/brian2-brian2/skills/brian2-docs-sphinx/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/brian2-brian2/skills/brian2-developer-guide/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/brian2-brian2/skills/brian2-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/brian2-brian2/skills/brian2-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/brian2-brian2/skills/brian2-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "brian2-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "brian2-index",
+      "brian2-getting-started",
+      "brian2-build-and-install",
+      "brian2-api-and-scripting",
+      "brian2-simulation-workflows",
+      "brian2-inputs-and-modeling",
+      "brian2-theory-and-methods"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 11,
+    "source_inventory": {},
+    "source_links_total": 166,
+    "topic_skills": 10,
+    "warnings": []
+  }
+}
